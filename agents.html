@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agents Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-white">
+    <header
+      class="flex py-2 px-4 border-b-[#1b1b231a] border-b-[1px] items-center justify-between"
+    >
+      <div class="flex items-center gap-2">
+        <button class="">&#9776;</button>
+        <h1 class="text-xl font-semibold">Agents</h1>
+      </div>
+      <div class="flex items-center gap-2">
+        <button
+          class="p-2 gap-[6px] flex items-center text-gray-600 hover:bg-gray-100 rounded-lg"
+        >
+          <img src="./assets/arrow-up-from-line.svg" />
+          <h1>Import</h1>
+        </button>
+        <button
+          class="pt-[6px] flex pr-[12px] items-center pb-[6px] pl-[8px] text-[14px] font-semibold text-white bg-[#685FFF] hover:bg-[#685FFF]/90 rounded-lg"
+        >
+          <img src="./assets/plus.svg" />
+          <h1>New Agent</h1>
+        </button>
+      </div>
+    </header>
+
+    <div class="flex justify-between">
+      <div class="py-4 w-full px-4">
+        <div class="flex items-center relative justify-between mb-6">
+          <div class="max-w-[432px] w-full">
+            <input
+              placeholder="Search..."
+              class="px-[32px] py-[6px] outline-none max-w-[432px] w-full border rounded-lg bg-white"
+            />
+            <img
+              class="absolute inset-0 my-auto left-[8px]"
+              src="./assets/search.svg"
+            />
+          </div>
+          <div class="flex items-center border rounded-lg">
+            <button class="py-[4px] px-[16px] border-r">&#9638; Cards</button>
+            <button class="py-[4px] px-[16px]">&#9776; List</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-4 max-w-[700px] w-full border rounded-lg bg-white">
+            <div class="">
+              <div class="flex gap-[8px]">
+                <div
+                  class="w-[24px] h-[24px] rounded-[6px] bg-purple-100 flex items-center justify-center"
+                >
+                  🚀
+                </div>
+                <h3 class="font-semibold">Visage</h3>
+              </div>
+              <div>
+                <p class="text-sm py-[4px] text-gray-500">
+                  Visage creates concise and engaging summaries of news
+                  articles...
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <button class="px-[7.423px] py-[3px] border rounded-lg">
+                &#8943;
+              </button>
+              <div class="flex gap-2">
+                <button
+                  class="text-gray-600 px-[12px] py-[6px] border border-[#e2e8f0] rounded-[6px] font-medium"
+                >
+                  Edit
+                </button>
+                <button
+                  class="py-[6px] pr-[8px] pl-[12px] bg-black text-white rounded-lg"
+                >
+                  Use agent &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 max-w-[700px] w-full border rounded-lg bg-white">
+            <div class="">
+              <div class="flex gap-[8px]">
+                <div
+                  class="w-[24px] h-[24px] rounded-[6px] bg-purple-100 flex items-center justify-center"
+                >
+                  🚀
+                </div>
+                <h3 class="font-semibold">Visage</h3>
+              </div>
+              <div>
+                <p class="text-sm py-[4px] text-gray-500">
+                  Visage creates concise and engaging summaries of news
+                  articles...
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <button class="px-[7.423px] py-[3px] border rounded-lg">
+                &#8943;
+              </button>
+              <div class="flex gap-2">
+                <button
+                  class="text-gray-600 px-[12px] py-[6px] border border-[#e2e8f0] rounded-[6px] font-medium"
+                >
+                  Edit
+                </button>
+                <button
+                  class="py-[6px] pr-[8px] pl-[12px] bg-black text-white rounded-lg"
+                >
+                  Use agent &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 max-w-[700px] w-full border rounded-lg bg-white">
+            <div class="">
+              <div class="flex gap-[8px]">
+                <div
+                  class="w-[24px] h-[24px] rounded-[6px] bg-purple-100 flex items-center justify-center"
+                >
+                  🚀
+                </div>
+                <h3 class="font-semibold">Visage</h3>
+              </div>
+              <div>
+                <p class="text-sm py-[4px] text-gray-500">
+                  Visage creates concise and engaging summaries of news
+                  articles...
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+              <button class="px-[7.423px] py-[3px] border rounded-lg">
+                &#8943;
+              </button>
+              <div class="flex gap-2">
+                <button
+                  class="text-gray-600 px-[12px] py-[6px] border border-[#e2e8f0] rounded-[6px] font-medium"
+                >
+                  Edit
+                </button>
+                <button
+                  class="py-[6px] pr-[8px] pl-[12px] bg-black text-white rounded-lg"
+                >
+                  Use agent &rarr;
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-sm text-gray-500 max-w-fit ml-auto mt-4">
+          Showing 1 to 1 of 1 agents
+        </p>
+      </div>
+
+      <div class="w-80 bg-white h-[95vh] border-l-[#1b1b231a]  border-l-[1px] py-4">
+        <div class="flex justify-between border-b-[#1b1b231a]  border-b-[1px] p-[16px]  items-center">
+          <div>
+            <h2 class="text-lg font-semibold">Build your AI Workforce</h2>
+            <p class="text-sm text-gray-500">3 of 4 completed</p>
+          </div>
+        </div>
+
+        <div class="m-0">
+          <div class="flex items-center  border-b-[#1b1b231a]  border-b-[1px] p-[16px] text-gray-400 line-through">
+            <Check size={16} class="mr-2 text-green-500" />
+            Clone or create an agent
+          </div>
+          <div class="flex items-center text-gray-400 border-b-[#1b1b231a]  border-b-[1px] p-[16px] line-through">
+            <Check size={16} class="mr-2 text-green-500" />
+            Get agent to run a tool
+          </div>
+          <div class="flex items-center text-gray-400 line-through border-b-[#1b1b231a]  border-b-[1px] p-[16px]">
+            <Check size={16} class="mr-2 text-green-500" />
+            Relevance Academy: Agents
+          </div>
+          <div class="flex p-[16px] items-center">
+            Relevance Academy: Tools
+          </div>
+        </div>
+
+        <div class="p-[16px]">
+          <h3 class="text-base font-semibold mt-[50px] mb-4">Learn Relevance AI</h3>
+          <div class="space-y-3">
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-black rounded"></div>
+              <span class="text-sm">Get started: Agents</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-black rounded"></div>
+              <span class="text-sm">Get started: Tools</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-gray-200 rounded"></div>
+              <span class="text-sm">When to use agents/tools</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-gray-200 rounded"></div>
+              <span class="text-sm">Build along: Multi-Channel Sales Agent</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-8 h-8 bg-gray-200 rounded"></div>
+              <span class="text-sm">Build along: Scrape Anything Agent</span>
+            </div>
+          </div>
+        </div>
+  
+        <div class="flex items-center justify-between bg-gray-50 p-[16px] rounded">
+          <div class="flex items-center">
+            <div class="w-4 h-4 bg-purple-500 rounded mr-2"></div>
+            <span class="text-sm">What's New</span>
+          </div>
+          <ChevronRight size={16} class="text-gray-400" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
